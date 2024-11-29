@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -17,7 +18,9 @@ ScriptsOnlyBuild:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
@@ -28,6 +31,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
@@ -105,6 +110,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17024}
     - Class: 114
+      Script: {instanceID: 18776}
+    - Class: 114
       Script: {instanceID: 19712}
     - Class: 114
       Script: {instanceID: 19718}
@@ -115,7 +122,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20276}
     - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
       Script: {instanceID: 22236}
+    - Class: 114
+      Script: {instanceID: 23570}
     - Class: 114
       Script: {instanceID: 23896}
     - Class: 114
