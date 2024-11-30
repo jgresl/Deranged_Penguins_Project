@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
+    - UnityEngine.XR.Interaction.Toolkit.CharacterControllerDriver
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
@@ -28,12 +29,9 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
@@ -111,32 +109,36 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17028}
+      Script: {instanceID: 17024}
     - Class: 114
-      Script: {instanceID: 18780}
+      Script: {instanceID: 18776}
     - Class: 114
-      Script: {instanceID: 19716}
+      Script: {instanceID: 19712}
     - Class: 114
-      Script: {instanceID: 19722}
+      Script: {instanceID: 19718}
     - Class: 114
-      Script: {instanceID: 19802}
+      Script: {instanceID: 19798}
     - Class: 114
-      Script: {instanceID: 19908}
+      Script: {instanceID: 19904}
     - Class: 114
-      Script: {instanceID: 20280}
+      Script: {instanceID: 20276}
     - Class: 114
-      Script: {instanceID: 21808}
+      Script: {instanceID: 21804}
     - Class: 114
-      Script: {instanceID: 22240}
+      Script: {instanceID: 22236}
     - Class: 114
-      Script: {instanceID: 23574}
+      Script: {instanceID: 22700}
     - Class: 114
-      Script: {instanceID: 23900}
+      Script: {instanceID: 23570}
     - Class: 114
-      Script: {instanceID: 24518}
+      Script: {instanceID: 23896}
     - Class: 114
-      Script: {instanceID: 24892}
+      Script: {instanceID: 24514}
+    - Class: 114
+      Script: {instanceID: 24888}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}

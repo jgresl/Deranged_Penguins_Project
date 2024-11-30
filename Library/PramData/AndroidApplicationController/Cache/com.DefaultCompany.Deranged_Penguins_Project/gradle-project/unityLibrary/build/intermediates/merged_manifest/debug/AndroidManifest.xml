@@ -54,6 +54,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.oculus.intent.category.VR" />
             </intent-filter>
 
             <meta-data

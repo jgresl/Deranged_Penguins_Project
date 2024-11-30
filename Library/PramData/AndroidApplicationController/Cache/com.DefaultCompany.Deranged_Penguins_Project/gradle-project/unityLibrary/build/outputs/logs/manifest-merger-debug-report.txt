@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:2:70-116
@@ -44,7 +44,7 @@ ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\Andro
 	android:name
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:17-80
 application
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:3-24:17
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:3-25:17
 	android:extractNativeLibs
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:16-48
 meta-data#unity.splash-mode
@@ -84,7 +84,7 @@ ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\Andro
 	android:name
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:16-60
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:5-23:16
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:5-24:16
 	android:screenOrientation
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:111-147
 	android:launchMode
@@ -101,8 +101,8 @@ ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\Andro
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 	android:name
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:15-68
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:7-20:23
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.oculus.intent.category.VR
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:7-21:23
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:9-69
 	android:name
@@ -111,18 +111,22 @@ action#android.intent.action.MAIN
 ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:9-61
 	android:name
 		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+category#com.oculus.intent.category.VR
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-66
+	android:name
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-63
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:7-82
 	android:value
-		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:59-79
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:59-79
 	android:name
-		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:18-58
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:18-58
 meta-data#notch_support
-ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:7-70
+ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:7-70
 	android:value
-		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:47-67
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:47-67
 	android:name
-		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:18-46
+		ADDED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:18-46
 uses-sdk
 INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml

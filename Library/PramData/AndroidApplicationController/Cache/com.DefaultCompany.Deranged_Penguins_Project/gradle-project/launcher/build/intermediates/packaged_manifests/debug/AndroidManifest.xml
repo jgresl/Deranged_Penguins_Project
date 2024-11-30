@@ -31,23 +31,10 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
-
-    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <queries>
-
-        <!-- to talk to the broker -->
-        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
-
-        <!-- so client-side code of runtime/layers can talk to their service sides -->
-        <intent>
-            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
-        </intent>
-        <intent>
-            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
-        </intent>
-    </queries>
+    <uses-feature
+        android:name="android.hardware.vr.headtracking"
+        android:required="true"
+        android:version="1" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -90,6 +77,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.oculus.intent.category.VR" />
             </intent-filter>
 
             <meta-data
@@ -98,7 +87,14 @@
             <meta-data
                 android:name="notch_support"
                 android:value="true" />
+            <meta-data
+                android:name="com.oculus.vr.focusaware"
+                android:value="true" />
         </activity>
+
+        <meta-data
+            android:name="com.oculus.supportedDevices"
+            android:value="quest|quest2|cambria|eureka" />
     </application>
 
 </manifest>

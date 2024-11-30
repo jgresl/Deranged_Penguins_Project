@@ -3,7 +3,6 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'openxr_loader', ext:'aar')
     implementation project('xrmanifest.androidlib')
 
 }

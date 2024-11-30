@@ -39,7 +39,7 @@
 22-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:81-105
 23
 24    <application android:extractNativeLibs="true" >
-24-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:3-24:17
+24-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:3-25:17
 24-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:16-48
 25        <meta-data
 25-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:5-69
@@ -79,7 +79,7 @@
 42-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:61-81
 43
 44        <activity
-44-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:5-23:16
+44-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:5-24:16
 45            android:name="com.unity3d.player.UnityPlayerActivity"
 45-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:15-68
 46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -97,7 +97,7 @@
 52            android:theme="@style/UnityThemeSelector" >
 52-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 53            <intent-filter>
-53-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:7-20:23
+53-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:7-21:23
 54                <category android:name="android.intent.category.LAUNCHER" />
 54-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:9-69
 54-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:19-66
@@ -105,21 +105,25 @@
 56                <action android:name="android.intent.action.MAIN" />
 56-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:9-61
 56-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:17-58
-57            </intent-filter>
-58
-59            <meta-data
-59-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:7-82
-60                android:name="unityplayer.UnityActivity"
-60-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:18-58
-61                android:value="true" />
-61-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:21:59-79
-62            <meta-data
-62-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:7-70
-63                android:name="notch_support"
-63-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:18-46
-64                android:value="true" />
-64-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:47-67
-65        </activity>
-66    </application>
-67
-68</manifest>
+57
+58                <category android:name="com.oculus.intent.category.VR" />
+58-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-66
+58-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-63
+59            </intent-filter>
+60
+61            <meta-data
+61-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+62                android:name="unityplayer.UnityActivity"
+62-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+63                android:value="true" />
+63-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+64            <meta-data
+64-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+65                android:name="notch_support"
+65-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+66                android:value="true" />
+66-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+67        </activity>
+68    </application>
+69
+70</manifest>

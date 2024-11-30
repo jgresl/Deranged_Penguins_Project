@@ -55,129 +55,124 @@
 32-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-72
 33        android:required="false" />
 33-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-33
-34
-35    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-35-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:13:3-74
-35-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:13:20-71
-36    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-36-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:14:3-81
-36-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:14:20-78
-37
-38    <queries>
-38-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:16:3-27:13
-39
-40        <!-- to talk to the broker -->
-41        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
-41-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:18:5-114
-41-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:18:15-111
+34    <uses-feature
+34-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-10:31
+35        android:name="android.hardware.vr.headtracking"
+35-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-56
+36        android:required="true"
+36-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-32
+37        android:version="1" />
+37-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-28
+38
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 42
-43        <!-- so client-side code of runtime/layers can talk to their service sides -->
-44        <intent>
-44-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:21:5-23:14
-45            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
-45-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:22:7-72
-45-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:22:15-69
-46        </intent>
-47        <intent>
-47-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:24:5-26:14
-48            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
-48-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:25:7-73
-48-->[:openxr_loader:] C:\Users\Jon\.gradle\caches\transforms-3\acb9d4bfcc827c073924bc14412c7ba7\transformed\jetified-openxr_loader\AndroidManifest.xml:25:15-70
-49        </intent>
-50    </queries>
-51
-52    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-53    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-54    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-55
-56    <application
-56-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-83
-57        android:debuggable="true"
-58        android:extractNativeLibs="true"
-58-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:18-50
-59        android:icon="@mipmap/app_icon"
-59-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:49-80
-60        android:label="@string/app_name" >
-60-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:16-48
-61        <meta-data
-61-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-27:33
-62            android:name="unity.splash-mode"
-62-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-45
-63            android:value="0" />
-63-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-30
-64        <meta-data
-64-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:36
-65            android:name="unity.splash-enable"
-65-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-47
-66            android:value="True" />
-66-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-33
-67        <meta-data
-67-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-33:36
-68            android:name="unity.launch-fullscreen"
-68-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-51
-69            android:value="True" />
-69-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-33
-70        <meta-data
-70-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
-71            android:name="unity.render-outside-safearea"
-71-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-57
-72            android:value="True" />
-72-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
-73        <meta-data
-73-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:50
-74            android:name="notch.config"
-74-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40
-75            android:value="portrait|landscape" />
-75-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-47
-76        <meta-data
-76-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:36
-77            android:name="unity.auto-report-fully-drawn"
-77-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-57
-78            android:value="true" />
-78-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-33
-79
-80        <activity
-80-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-65:20
-81            android:name="com.unity3d.player.UnityPlayerActivity"
-81-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-66
-82            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-82-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-194
-83            android:exported="true"
-83-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-36
-84            android:hardwareAccelerated="false"
-84-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-48
-85            android:launchMode="singleTask"
-85-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-44
-86            android:resizeableActivity="false"
-86-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-47
-87            android:screenOrientation="fullUser"
-87-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-49
-88            android:theme="@style/UnityThemeSelector" >
-88-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-54
-89            <intent-filter>
-89-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-57:29
-90                <category android:name="android.intent.category.LAUNCHER" />
-90-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-77
-90-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:27-74
-91
-92                <action android:name="android.intent.action.MAIN" />
-92-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-69
-92-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:25-66
-93            </intent-filter>
+43    <application
+43-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-83
+44        android:debuggable="true"
+45        android:extractNativeLibs="true"
+45-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:18-50
+46        android:icon="@mipmap/app_icon"
+46-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:49-80
+47        android:label="@string/app_name" >
+47-->C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\launcher\src\main\AndroidManifest.xml:3:16-48
+48        <meta-data
+48-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-27:33
+49            android:name="unity.splash-mode"
+49-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-45
+50            android:value="0" />
+50-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-30
+51        <meta-data
+51-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:36
+52            android:name="unity.splash-enable"
+52-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-47
+53            android:value="True" />
+53-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-33
+54        <meta-data
+54-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-33:36
+55            android:name="unity.launch-fullscreen"
+55-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-51
+56            android:value="True" />
+56-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-33
+57        <meta-data
+57-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-36:36
+58            android:name="unity.render-outside-safearea"
+58-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-57
+59            android:value="True" />
+59-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-33
+60        <meta-data
+60-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-39:50
+61            android:name="notch.config"
+61-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40
+62            android:value="portrait|landscape" />
+62-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-47
+63        <meta-data
+63-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-42:36
+64            android:name="unity.auto-report-fully-drawn"
+64-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-57
+65            android:value="true" />
+65-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-33
+66
+67        <activity
+67-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-67:20
+68            android:name="com.unity3d.player.UnityPlayerActivity"
+68-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-66
+69            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+69-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-194
+70            android:exported="true"
+70-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-36
+71            android:hardwareAccelerated="false"
+71-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-48
+72            android:launchMode="singleTask"
+72-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-44
+73            android:resizeableActivity="false"
+73-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-47
+74            android:screenOrientation="fullUser"
+74-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-49
+75            android:theme="@style/UnityThemeSelector" >
+75-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-54
+76            <intent-filter>
+76-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-59:29
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-77
+77-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:27-74
+78
+79                <action android:name="android.intent.action.MAIN" />
+79-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-69
+79-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:25-66
+80
+81                <category android:name="com.oculus.intent.category.VR" />
+81-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:17-74
+81-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:27-71
+82            </intent-filter>
+83
+84            <meta-data
+84-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-63:40
+85                android:name="unityplayer.UnityActivity"
+85-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:17-57
+86                android:value="true" />
+86-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-37
+87            <meta-data
+87-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-66:40
+88                android:name="notch_support"
+88-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:17-45
+89                android:value="true" />
+89-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-37
+90            <meta-data
+90-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:40
+91                android:name="com.oculus.vr.focusaware"
+91-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-56
+92                android:value="true" />
+92-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-37
+93        </activity>
 94
-95            <meta-data
-95-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-61:40
-96                android:name="unityplayer.UnityActivity"
-96-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:17-57
-97                android:value="true" />
-97-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:17-37
-98            <meta-data
-98-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-64:40
-99                android:name="notch_support"
-99-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-45
-100                android:value="true" />
-100-->[:unityLibrary] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-37
-101        </activity>
-102    </application>
-103
-104</manifest>
+95        <meta-data
+95-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:59
+96            android:name="com.oculus.supportedDevices"
+96-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-55
+97            android:value="quest|quest2|cambria|eureka" />
+97-->[:unityLibrary:xrmanifest.androidlib] C:\Users\Jon\Desktop\Deranged_Penguins_Project\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Deranged_Penguins_Project\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-56
+98    </application>
+99
+100</manifest>
