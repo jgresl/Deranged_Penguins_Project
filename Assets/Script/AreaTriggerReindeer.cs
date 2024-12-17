@@ -16,5 +16,6 @@ public class AreaTriggerReindeer : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         onTriggerExit.Invoke();
+        Destroy(gameObject);
     }
 }
